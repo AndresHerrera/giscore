@@ -1,0 +1,228 @@
+
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+     .cabecera {
+	    background-image: url( '../geopalmira_resources/img/logos/pano_palmira.jpg' );
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.container {
+    	width: 100%;
+    	margin: 0;
+
+    	padding-top: 0px;
+   		padding-right: 0px;
+    	padding-bottom: 0px;
+    	padding-left: 0px;
+	}
+
+	.container, .container-fluid 
+	{
+    	padding-left: 0px;
+    	padding-right: 0px;
+    	margin: 0px 0 0px 0;
+	}
+
+
+	.nav>li>a 
+	{
+    	padding: 10px 20px;
+	}
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+   
+   .cabecera {
+	    background-image: url( '../geopalmira_resources/img/logos/pano_palmira_2000.jpg' );
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.container {
+    	width: 100%;
+    	margin: 0;
+
+    	padding-top: 0px;
+	    padding-right: 0px;
+	    padding-bottom: 0px;
+	    padding-left: 0px;
+	}
+
+	.container, .container-fluid 
+	{
+    	padding-left: 0px;
+    	padding-right: 0px;
+    	margin: 0px 0 0px 0;
+	}
+
+	.nav>li>a 
+	{
+    	padding: 10px 20px;
+	}
+}
+
+
+/* For Desktop */
+@media screen and (min-width: 780px) and (max-width: 2000px) {
+   
+   .cabecera {
+	    background-image: url( '../geopalmira_resources/img/logos/pano_palmira_2000.jpg' );
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.container {
+    	width: 100%;
+    	margin: 0;
+
+    	padding-top: 0px;
+	    padding-right: 0px;
+	    padding-bottom: 0px;
+	    padding-left: 0px;
+	}
+
+
+
+	.container, .container-fluid 
+	{
+    	padding-left: 0px;
+    	padding-right: 0px;
+    	clear: both;
+  		margin: 0px 0px 0px 0px;
+	}
+
+	.nav>li>a 
+	{
+    	padding: 10px 20px;
+	}
+
+
+	.navbar-right .dropdown-menu
+	{
+		right:20px;left:auto
+	}
+
+	.navbar-right .dropdown-menu-left
+	{
+		left:20px;right:auto
+	}
+}
+
+
+
+
+
+
+
+
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #ffffff; 
+}
+
+
+.navbar-default {
+    background-color: #2570BB;
+    border-color: #d3e0e9;
+}
+
+
+
+#giscore_map 
+{ 
+	height: 85%;  
+	width: 100%;
+	margin: -22px 0 0px 0;
+
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+/*********************************************************************************/
+
+/*.navbar-brand { 
+  width: 70px;
+  height: 50px;
+  background: url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png') no-repeat center center;
+  background-size: 50px;  
+}*/
+
+.nav-tabs {
+  display: inline-block;
+  border-bottom: none;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.nav-tabs > li > a, 
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: none;
+  border-radius: 0;
+}
+
+.nav-list { border-bottom: 1px solid #eee; }
+.nav-list > li { 
+  padding: 20px 15px 15px;
+  border-left: 1px solid #eee; 
+}
+.nav-list > li:last-child { border-right: 1px solid #eee; }
+.nav-list > li > a:hover { text-decoration: none; }
+.nav-list > li > a > span {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {
+  padding: 10px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background: rgba(37, 112, 200, 0.9);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: rgba(37, 112, 187, 0.9);
+}
+
+
+
+/*
+.dropdown-toggle[aria-expanded="false"] {
+  background:#000000 !important;
+  color:#000 !important;
+}*/
