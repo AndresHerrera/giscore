@@ -33,9 +33,36 @@ $( document ).ready(function() {
 	/*For dropdown menu bar */
 
 
+	var palmira_extent = [[3.50304, -76.3479], [3.56584, -76.2359]];
+	var palmira_rural_extent = [[3.4212, -76.4696], [3.70933, -76.0035]];
+	var enblanco = L.tileLayer("");
 
 
-    var mymap = L.map('giscore_map').setView([51.505, -0.09], 13);
+	var home = {
+	  lat: 3.53464,
+	  lng: -76.29666,
+	  zoom: 16
+	}; 
+
+
+
+    //var mymap = L.map('giscore_map').setView([51.505, -0.09], 13);
+
+
+    var mymap = L.map("giscore_map", {
+		crs: L.CRS.EPSG3857,
+		//center: [home.lat,home.lng],
+		maxZoom: 18,
+		//minZoom: 3,
+		//zoom: home.zoom,
+		layers: [enblanco],
+		attributionControl: true,
+		zoomControl: false
+	});
+
+	mymap.fitBounds(palmira_extent);
+
+
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -45,7 +72,7 @@ $( document ).ready(function() {
 		id: 'mapbox.streets'
 	}).addTo(mymap);
 
-	L.marker([51.5, -0.09]).addTo(mymap)
+	/*L.marker([51.5, -0.09]).addTo(mymap)
 		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
 	L.circle([51.508, -0.11], 500, {
@@ -58,7 +85,7 @@ $( document ).ready(function() {
 		[51.509, -0.08],
 		[51.503, -0.06],
 		[51.51, -0.047]
-	]).addTo(mymap).bindPopup("I am a polygon.");
+	]).addTo(mymap).bindPopup("I am a polygon.");*/
 
 
 	var popup = L.popup();
