@@ -69,65 +69,65 @@
 						  
                           <div class="tab-pane active" id="planeacion">
                             <ul class="nav-list list-inline">
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 3</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 4</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 5</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 6</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 3</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 4</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 5</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 6</span></a></li>
                             </ul>
                           </div>
 						  
                           <div class="tab-pane" id="hacienda">
                             <ul class="nav-list list-inline">
-                               <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 3</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 4</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 5</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 6</span></a></li>                      
+                               <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 3</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 4</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 5</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 6</span></a></li>                      
                             </ul>
                           </div>
 						  
                           <div class="tab-pane" id="agricola">
                             <ul class="nav-list list-inline">
-                                 <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 3</span></a></li>
+                                 <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 3</span></a></li>
                             </ul>
                           </div>
 						  
                           <div class="tab-pane" id="riesgo">
                             <ul class="nav-list list-inline">                                
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 3</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 3</span></a></li>
                             </ul>
                           </div>
 						  
 						  <div class="tab-pane" id="medioambiente">
                             <ul class="nav-list list-inline">    
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 3</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 4</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 5</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 3</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 4</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 5</span></a></li>
                             </ul>
                           </div>
 						  
 						  <div class="tab-pane" id="desarrolloi">
                             <ul class="nav-list list-inline">                                
-                                 <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 3</span></a></li>
+                                 <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess6.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess2.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess4.png') }}"><span>Geoproceso 3</span></a></li>
                             </ul>
                           </div>
 						  
 						  <div class="tab-pane" id="seguridadconv">
                             <ul class="nav-list list-inline">                                
-                                 <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 1</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 2</span></a></li>
-                                <li><a href="#"><img src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 3</span></a></li>
+                                 <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess5.png') }}"><span>Geoproceso 1</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess3.png') }}"><span>Geoproceso 2</span></a></li>
+                                <li><a href="#"><img width="70px" height="70px" src="{{ asset('geopalmira_resources/img/menu/geoprocess1.png') }}"><span>Geoproceso 3</span></a></li>
                             </ul>
                           </div>
 						  
